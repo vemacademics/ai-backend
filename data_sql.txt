@@ -1,0 +1,78 @@
+INSERT INTO users (fullname, username, pwd, urole, status, phonenumber, picture, region, street, levelofeducation, income, email, disability) VALUES
+('Amina Juma', 'amina.juma', 'securepass123', 'admin', 'active', '+255754789123', 'amina.jpg', 'Dar es Salaam', 'Kariakoo', 'primary', 'below_1000_tsh', 'amina.juma@example.com', 'None'),
+('Omari Mwinyi', 'omari.mwinyi', 'mypassword321', 'guest', 'active', '+255754123456', 'omari.jpg', 'Arusha', 'Sakina', 'degree', 'below_10000_tsh', 'omari.mwinyi@example.com', 'None'),
+('Zahra Salim', 'zahra.salim', 'password789', 'supporter', 'active', '+255714789001', 'zahra.jpg', 'Zanzibar', 'Nungwi', 'postgraduate', 'below_30000_tsh', 'zahra.salim@example.com', 'Physical Disability'),
+('Hassan Ngoma', 'hassan.ngoma', 'securepass456', 'guest', 'pending', '+255764789223', 'hassan.jpg', 'Mwanza', 'Ilemela', 'secondary', 'below_1000_tsh', 'hassan.ngoma@example.com', 'None'),
+('Fatuma Haji', 'fatuma.haji', 'pass9876', 'admin', 'active', '+255754654321', 'fatuma.jpg', 'Dodoma', 'Kikuyu', 'primary', 'below_30000_tsh', 'fatuma.haji@example.com', 'Visual Impairment'),
+('Juma Ali', 'juma.ali', 'mypassword001', 'guest', 'suspended', '+255783456781', 'juma.jpg', 'Mbeya', 'Sisimba', 'primary', 'below_1000_tsh', 'juma.ali@example.com', 'Hearing Impairment'),
+('Salma Hassan', 'salma.hassan', 'mypassword123', 'supporter', 'active', '+255734765423', 'salma.jpg', 'Tanga', 'Ngamiani', 'none', 'below_1000_tsh', 'salma.hassan@example.com', 'None'),
+('Ahmed Bakari', 'ahmed.bakari', 'mypassword423', 'admin', 'disabled', '+255784321896', 'ahmed.jpg', 'Iringa', 'Kihesa', 'degree', 'below_10000_tsh', 'ahmed.bakari@example.com', 'Physical Disability'),
+('Zainab Saidi', 'zainab.saidi', 'mypassword456', 'admin', 'active', '+255654789876', 'zainab.jpg', 'Kilwa', 'Kivinje', 'secondary', 'below_10000_tsh', 'zainab.saidi@example.com', 'None'),
+('Ismail Ramadhani', 'ismail.ramadhani', 'password12345', 'guest', 'pending', '+255687654321', 'ismail.jpg', 'Singida', 'Ipembe', 'primary', 'below_30000_tsh', 'ismail.ramadhani@example.com', 'Hearing Impairment'),
+('Asha Omari', 'asha.omari', 'mypassword098', 'supporter', 'active', '+255689765234', 'asha.jpg', 'Geita', 'Nyankumbu', 'primary', 'below_1000_tsh', 'asha.omari@example.com', 'None'),
+('Ibrahim Majid', 'ibrahim.majid', 'password876', 'guest', 'suspended', '+255701234567', 'ibrahim.jpg', 'Kigoma', 'Kibirizi', 'secondary', 'below_10000_tsh', 'ibrahim.majid@example.com', 'Visual Impairment'),
+('Latifa Simba', 'latifa.simba', 'securepass789', 'admin', 'active', '+255789456123', 'latifa.jpg', 'Iringa', 'Kihesa', 'postgraduate', 'below_30000_tsh', 'latifa.simba@example.com', 'None'),
+('Hussein Ramadhani', 'hussein.ramadhani', 'mypassword432', 'supporter', 'active', '+255745768456', 'hussein.jpg', 'Morogoro', 'Kihonda', 'primary', 'below_1000_tsh', 'hussein.ramadhani@example.com', 'Physical Disability'),
+('Halima Abdallah', 'halima.abdallah', 'passwordsecure', 'guest', 'active', '+255743218905', 'halima.jpg', 'Lindi', 'Kilwa Kivinje', 'primary', 'below_10000_tsh', 'halima.abdallah@example.com', 'None'),
+('Ramadhani Jongo', 'ramadhani.jongo', 'mypassword876', 'supporter', 'active', '+255726453786', 'ramadhani.jpg', 'Tabora', 'Ipuli', 'secondary', 'below_1000_tsh', 'ramadhani.jongo@example.com', 'None'),
+('Fatuma Juma', 'fatuma.juma', 'mypassword001', 'guest', 'disabled', '+255783456781', 'fatuma.jpg', 'Kagera', 'Bukoba', 'primary', 'below_10000_tsh', 'fatuma.juma@example.com', 'Visual Impairment'),
+('Omari Hassan', 'omari.hassan', 'mypassword222', 'admin', 'active', '+255754765321', 'omari.jpg', 'Dodoma', 'Changombe', 'primary', 'below_30000_tsh', 'omari.hassan@example.com', 'Physical Disability'),
+('Amina Haji', 'amina.haji', 'mypassword123', 'supporter', 'suspended', '+255745672345', 'amina.jpg', 'Mtwara', 'Mikindani', 'degree', 'below_30000_tsh', 'amina.haji@example.com', 'None'),
+('Salim Omari', 'salim.omari', 'mypassword321', 'guest', 'active', '+255654321098', 'salim.jpg', 'Ruvuma', 'Songea', 'primary', 'below_1000_tsh', 'salim.omari@example.com', 'Hearing Impairment');
+
+
+
+INSERT INTO skills (skill_name, skill_level, comments, user_id) VALUES
+('Programming', 'expert', 'Proficient in Python, Java, and C++', 4),
+('Cooking', 'advanced', 'Specializes in Tanzanian cuisine', 4),
+('Public Speaking', 'intermidiate', 'Experience in giving presentations', 6),
+('Graphic Design', 'advanced', 'Skilled in Adobe Photoshop and Illustrator', 6),
+('Accounting', 'expert', 'Extensive experience with financial analysis', 10),
+('Marketing', 'advanced', 'Skilled in digital marketing strategies', 10),
+('Teaching', 'expert', '5 years of experience in education', 12),
+('Project Management', 'advanced', 'Certified in PMP', 12),
+('Gardening', 'beginer', 'Passion for urban gardening', 15),
+('Driving', 'advanced', 'Licensed driver with clean record', 15),
+('Photography', 'expert', 'Professional photographer specializing in landscapes', 17),
+('Video Editing', 'intermidiate', 'Knowledge of Final Cut Pro', 17),
+('Entrepreneurship', 'advanced', 'Startup founder experience', 20),
+('Sales', 'expert', 'Extensive experience in customer acquisition', 20),
+('Writing', 'advanced', 'Skilled in creative writing', 2),
+('Music', 'beginer', 'Learning guitar and piano', 2);
+
+INSERT INTO works (work_title, work_description, work_type, work_experience, user_id) VALUES
+('Software Engineer', 'Developing scalable backend systems', 'fulltime', 'expert', 4),
+('Data Analyst', 'Analyzing large datasets to derive insights', 'fulltime', 'advanced', 4),
+('Graphic Designer', 'Creating visual concepts for branding', 'freelance', 'advanced', 6),
+('Social Media Manager', 'Managing and curating social media content', 'parttime', 'intermidiate', 6),
+('Accountant', 'Preparing and reviewing financial records', 'fulltime', 'expert', 10),
+('Financial Consultant', 'Advising clients on investments', 'freelance', 'expert', 10),
+('High School Teacher', 'Teaching mathematics and science subjects', 'fulltime', 'expert', 12),
+('Curriculum Developer', 'Designing educational materials', 'parttime', 'advanced', 12),
+('Gardener', 'Maintaining urban gardens', 'parttime', 'beginer', 15),
+('Delivery Driver', 'Transporting packages safely and on time', 'freelance', 'advanced', 15),
+('Photographer', 'Capturing portraits and landscapes', 'freelance', 'expert', 17),
+('Video Editor', 'Editing promotional and event videos', 'parttime', 'intermidiate', 17),
+('Business Owner', 'Running a successful retail business', 'fulltime', 'advanced', 20),
+('Sales Representative', 'Generating leads and closing deals', 'freelance', 'expert', 20),
+('Writer', 'Writing blogs and short stories', 'freelance', 'advanced', 2),
+('Music Tutor', 'Teaching beginner piano lessons', 'parttime', 'beginer', 2);
+
+
+INSERT INTO products (product_name, description, price, image, comments, user_id) VALUES
+('Smartphone', 'Latest model with excellent camera quality', 800.00, 'smartphone.jpg', 'Ideal for photography enthusiasts', 4),
+('Wireless Headphones', 'Noise-cancelling headphones', 150.00, 'headphones.jpg', 'Perfect for long commutes', 4),
+('Cooking Utensil Set', 'Complete set for modern kitchen', 75.00, 'cooking_set.jpg', 'Designed for culinary precision', 6),
+('Coffee Maker', 'High-quality coffee machine', 200.00, 'coffee_maker.jpg', 'Best for coffee lovers', 6),
+('Accounting Software License', 'Advanced financial analysis tool', 500.00, 'accounting_software.jpg', 'Streamline accounting tasks', 10),
+('Financial Textbook', 'Comprehensive guide to personal finance', 40.00, 'finance_textbook.jpg', 'Great for students and professionals', 10),
+('Educational Tablet', 'Pre-loaded with learning materials', 300.00, 'educational_tablet.jpg', 'Perfect for students', 12),
+('Classroom Projector', 'Portable and high-resolution projector', 450.00, 'projector.jpg', 'Ideal for presentations', 12),
+('Gardening Tools', 'Set of tools for urban gardening', 50.00, 'gardening_tools.jpg', 'Great for beginners', 15),
+('Electric Bike', 'Eco-friendly mode of transportation', 800.00, 'electric_bike.jpg', 'Helps reduce carbon footprint', 15),
+('DSLR Camera', 'Professional-grade camera for stunning photos', 1200.00, 'dslr_camera.jpg', 'Perfect for photography enthusiasts', 17),
+('Drone', 'Compact drone with HD video recording', 500.00, 'drone.jpg', 'Captures aerial footage', 17),
+('Business Software Suite', 'Complete package for managing business operations', 1000.00, 'business_software.jpg', 'Designed for entrepreneurs', 20),
+('Promotional Merchandise', 'Customizable items for brand promotion', 100.00, 'merchandise.jpg', 'Great for marketing campaigns', 20),
+('Notebook', 'Stylish and compact notebook for writing', 15.00, 'notebook.jpg', 'Ideal for creative writers', 2),
+('Guitar', 'Beginner-friendly acoustic guitar', 300.00, 'guitar.jpg', 'Perfect for music learners', 2);

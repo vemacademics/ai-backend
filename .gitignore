@@ -1,0 +1,16 @@
+# Ignore Alembic cache
+alembic.ini
+
+# Ignore Pytest cache
+*.pytest_cache
+
+
+# my personal file are ignored    
+
+mainBackup.py
+mpango.py
+steps.py
+sssstest_new_main.py
+kablaYaPictureSettings.py
+
+
