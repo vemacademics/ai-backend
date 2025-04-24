@@ -339,7 +339,6 @@ class Skill(BaseModel):
     skill_name: str
     skill_level: SkillEnum = SkillEnum.beginer
     comments: Optional[str] = None
-    # skill_id: int  
     user_id: int  # Foreign key reference to the user
 
     class Config:
@@ -347,8 +346,8 @@ class Skill(BaseModel):
 
 # Router for users
 skill_router = APIRouter(
-    prefix="/skills",  # Path prefix for all user endpoints
-    tags=["Skills"],   # Group under "Users" in Swagger
+    prefix="/skills",  
+    tags=["Skills"],   
 )
 
 @skill_router.post("/", response_model=Skill)
@@ -497,17 +496,16 @@ class Product(BaseModel):
     description: Optional[str] = None
     price: float 
     image: Optional[str] = None  # URL or path
-    comments: Optional[str] = None
-    # product_id: int  
-    user_id: int  # Foreign key reference to the user
+    comments: Optional[str] = None  
+    user_id: int  
 
     class Config:
         from_attributes = True
 
 # Router for products
 product_router = APIRouter(
-    prefix="/products",  # Path prefix for all user endpoints
-    tags=["Products"],   # Group under "Users" in Swagger
+    prefix="/products",  
+    tags=["Products"],   
 )
 
 @product_router.post("/", response_model=Product)
@@ -569,7 +567,6 @@ def delete_product(product_id: int):
         db.close()
         raise HTTPException(status_code=404, detail=f"Product {product_id} not found")
     
-
 
 # Register routers
 app.include_router(user_router)
