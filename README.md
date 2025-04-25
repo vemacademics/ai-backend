@@ -5,7 +5,7 @@ Fastapi Implemetation for HR-AI project
 
 <div align="center">
     
-  <img src="ERD-Sample.JPG" alt="ERD DIagram"  width="80" height="80" />
+  <img src="ERD-Sample.JPG" alt="ERD DIagram"  width="1000" height="1000" />
 </div>
 
 
