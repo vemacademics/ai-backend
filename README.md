@@ -3,9 +3,9 @@ Fastapi Implemetation for HR-AI project
 
 
 
-<div style="textalign: center;">
+<div align="center">
     
-  <img src="ERD-Sample.JPG" alt="ERD DIagram"  style="align: center;" />
+  <img src="ERD-Sample.JPG" alt="ERD DIagram"  width="80" height="80" />
 </div>
 
 
